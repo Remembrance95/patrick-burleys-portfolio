@@ -1,23 +1,59 @@
+html {
+    background-color: #f8f8ff;
+}
+
 .container {
     margin: auto;
-    max-width:500px;
     font-family: sans-serif;
+    text-size-adjust: 1em;
+
 }
 
 .heading {
-    color: rebeccapurple;
+    color: #3038cf;
+    text-align: center;
+}
+
+.header {
+    background-color: #3038cf;
+    padding: 25px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.header a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.divStyles {
+    max-width:500px;
+    margin: auto;
 }
 
 .nav-links {
     display: flex;
     list-style: none;
     padding-left: 0;
+    
 }
 
 .nav-link-item {
     padding-right: 2rem;
+    margin: auto;
+    display: flex;
 }
 
 .nav-link-text {
     color: black;
+    text-transform: none;
+}
+
+.githubIcon {
+    height: 25px;
+    width: 25px;
 }

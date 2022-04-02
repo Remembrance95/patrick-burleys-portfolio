@@ -1,6 +1,10 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://www.patrickburleyportfolio.gatsbyjs.io`,
   },
-  plugins: [],
+  plugins: [
+    "gatsby-plugin-gatsby-cloud",
+    "gatsby-plugin-image", 
+    "gatsby-plugin-sharp"
+  ], 
 }
