@@ -53,7 +53,9 @@ html {
     text-transform: none;
 }
 
-.githubIcon {
+.linkIcons {
     height: 25px;
     width: 25px;
+    margin-left: 10px;
+
 }
